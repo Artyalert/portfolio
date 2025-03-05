@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navList li a {
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .navList li a:hover {
+    background: #f0f0f0;
+  }
+  
+  .resumeBtn {
+    border: 1px solid #0070f3;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+  }
+  
